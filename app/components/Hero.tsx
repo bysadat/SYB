@@ -27,14 +27,14 @@ const Hero: React.FC<HeroProps> = ({ name = 'Sadat' }) => {
         {/* Projects Link */}
         <Link
           to="/projects"
-          className="bg-sky-600 hover:bg-sky-500 shadow-[0_0_18px_rgba(56,189,248,0.9)] text-white px-6 py-2 rounded-2xl  transition "
+          className="bg-sky-600 hover:bg-sky-500 shadow-[0_0_12px_rgba(56,189,248,0.9)] text-white px-6 py-2 rounded-2xl  transition "
         >
           View Projects.
         </Link>
         {/* Contact me link */}
         <Link
           to="/contact"
-          className="border border-sky-600 text-sky-600 px-5 py-2 rounded-2xl hover:bg-sky-500 hover:shadow-[0_0_18px_rgba(56,189,248,0.9)] hover:text-white transition "
+          className="border border-sky-600 text-sky-600 px-5 py-2 rounded-2xl hover:bg-sky-600 hover:shadow-[0_0_10px_rgba(56,189,248,0.9)] hover:text-white transition "
         >
           Contact Me?
         </Link>
