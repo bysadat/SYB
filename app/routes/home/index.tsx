@@ -24,7 +24,7 @@ const Home = ({ loaderData }: Route.ComponentProps) => {
 
   return (
     <>
-      <FeaturedProjects projects={projects} count={3} />
+      <FeaturedProjects projects={projects} count={2} />
     </>
   );
 };

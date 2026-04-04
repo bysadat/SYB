@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* Logo */}
         <NavLink
           to="/"
-          className="flex items-center gap-2 text-lg font-bold bg-gradient-to-r from-sky-400 via-indigo-300 to-fuchsia-400 bg-clip-text text-transparent"
+          className="flex items-center gap-2 text-lg font-bold bg-linear-to-r from-sky-400 via-indigo-300 to-fuchsia-400 bg-clip-text text-transparent"
         >
           <div className="flex items-center space-around">
             <DiSublime className="text-sky-400 text-3xl drop-shadow-[0_0_18px_rgba(56,189,248,0.9)]" />
